@@ -3,11 +3,15 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 // import './bases/conts-let'
 // import './bases/objects'
-import "./bases/arrays";
+// import "./bases/arrays";
 // import './bases/functions'
 // import "./bases/destructure-obj";
 // import "./bases/destructure-arrays";
 // import "./bases/import-export";
+// import "./bases/promises";
+// import "./bases/fetch-api";
+// import "./bases/axios";
+import "./bases/async-await";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

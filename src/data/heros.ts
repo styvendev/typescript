@@ -1,7 +1,7 @@
-export interface hero {
+export interface Hero {
   id: number;
   name: string;
-  owner: Owner;
+  owner: string;
 }
 
 export type Owner = "DC" | "Marvel";

@@ -18,14 +18,7 @@ export const person: Hero = {
 // const { age, name, power = 'No tiene poder' } = person
 // console.log({age,name, power})
 
-interface createHeroArg {
-  name: string;
-  age: number;
-  codeName: string;
-  power?: string;
-}
-
-export const createHero = ({ name, age, codeName, power }: createHeroArg) => ({
+export const createHero = ({ name, age, codeName, power }: Hero) => ({
   id: 2,
   name: name,
   age: age,
