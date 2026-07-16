@@ -1,19 +1,19 @@
-import "./style.css";
-import typescriptLogo from "./typescript.svg";
-import viteLogo from "/vite.svg";
-// import './bases/conts-let'
-// import './bases/objects'
-// import "./bases/arrays";
-// import './bases/functions'
-// import "./bases/destructure-obj";
-// import "./bases/destructure-arrays";
-// import "./bases/import-export";
-// import "./bases/promises";
-// import "./bases/fetch-api";
-// import "./bases/axios";
-import "./bases/async-await";
+import './style.css';
+import typescriptLogo from './typescript.svg';
+import viteLogo from '/vite.svg';
+// import './bases/01-conts-let'
+// import './bases/02-objects'
+// import "./bases/03-arrays";
+// import './bases/04-functions';
+// import "./bases/05-destructure-obj";
+// import "./bases/06-destructure-arrays";
+// import './bases/07-imp-exp';
+// import './bases/08-promises';
+// import './bases/09-fetch-api';
+// import './bases/10-axios';
+// import './bases/11-async-await';
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
